@@ -1,0 +1,27 @@
+student {
+    text-align: center;
+}
+
+usn {
+    color: red;
+}
+
+name {
+    color: lime;
+}
+
+college {
+    color: maroon;
+}
+
+programme {
+    color: magenta;
+}
+
+doj {
+    color: aqua;
+}
+
+email {
+    color: orange;
+}

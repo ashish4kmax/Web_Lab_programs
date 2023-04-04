@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings/ Numbers</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        #inputbox {
+            width: 350px;
+            height: 50px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find Vowel position if string if a number find its reverse</h1>
+    <br>
+    <br>
+    <input type="text" id="inputbox">
+    <br>
+    <br>
+    <button type="submit" onclick="check()">Click to check</button>
+    <h2 id="res"></h2>
+    <script>
+        function check() {
+            var str = document.getElementById("inputbox").value;
+            if (isNaN(str)==true) {
+                var found = -1;
+                for (var i = 0; i < str.length; i++) {
+                    if ((str.charAt(i) == 'A' || str.charAt(i) == 'a') || (str.charAt(i) == 'E' || str.charAt(i) == 'e') || (str.charAt(i) == 'I' || str.charAt(i) == 'i') || (str.charAt(i) == 'O' || str.charAt(i) == 'o') || (str.charAt(i) == 'U' || str.charAt(i) == 'u')) {
+                        found = i;
+                        break;
+                    }
+                }
+
+                if (found != -1 && found < str.length) {
+                    document.getElementById("res").innerHTML = "The vowel of string '" + str + "'is found at position = " + found + ".";
+                }
+                else {
+                    document.getElementById("res").innerHTML = "No vowel found in the string " + str + ".";
+                }
+            }
+            else {
+                var rev = 0;
+                var n = parseInt(str);
+                var rem = 0;
+                while (n > 0) {
+                    rem = n % 10;
+                    rev = rev * 10 + rem;
+                    n = parseInt(n/10);
+                }
+
+                document.getElementById("res").innerHTML = "As the inputed text is number so reverse of the number '" + str + "' is = " + rev + ".";
+            }
+        }
+    </script>
+</body>
+</html>

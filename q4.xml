@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+
+<html>
+<head>
+    <h2>Students Detail</h2>
+</head>
+
+<students>
+    <student>
+        <usn>Usn : 1BY21IS026</usn>
+        <name>Name : Ashish Kumar Sahoo</name>
+        <college>College : BMSIT</college>
+        <branch>Programme : ISE</branch>
+        <doj>Date Of Joining : 27/12/2021</doj>
+        <email>Email Id : ashish10112093@gmail.com</email>
+    </student>
+</students>
+</html>

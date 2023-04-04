@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Growing and Text Shrinking</title>
+</head>
+<body>
+    <p id="sometext"></p>
+    <script>
+        var var2;
+        var var1 = setInterval(inTimer, 500);
+        var ids = document.getElementById("sometext");
+        var size = 5;
+        function inTimer() {
+            ids.innerHTML = 'TEXT GROWING';
+            ids.setAttribute('style','font-size :'+size+'px; color:red');
+            size +=5;
+            if(size>=50) {
+                clearInterval(var1);
+                var2 = setInterval(deTimer,500);
+            }
+        }
+
+        function deTimer() {
+            size -=5;
+            ids.innerHTML = 'TEXT SHRINKING';
+            ids.setAttribute('style','font-size :'+size+'px; color:blue');
+            if(size==5) {
+                clearInterval(var2);
+                var1= setInterval(inTimer,500);
+            }
+        }
+    </script>
+</body>
+</html>
