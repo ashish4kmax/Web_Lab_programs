@@ -1,27 +1,78 @@
-student {
+students {
     text-align: center;
 }
 
+student::after {
+    content: "\a";
+    white-space: pre;
+}
+
+student::before {
+    content: "\a";
+    white-space: pre;
+}
+
+h2::after {
+    content: "\a";
+    white-space: pre;
+}
+
 usn {
+    margin-left: 1%;
     color: red;
 }
 
+usn::after {
+    content: "\a";
+    white-space: pre;
+}
+
 name {
+    margin-left: 1%;
     color: lime;
 }
 
+name::after {
+    content: "\a";
+    white-space: pre;
+}
+
 college {
+    margin-left: 1%;
     color: maroon;
 }
 
-programme {
+college::after {
+    content: "\a";
+    white-space: pre;
+}
+
+branch {
+    margin-left: 1%;
     color: magenta;
 }
 
+branch::after {
+    content: "\a";
+    white-space: pre;
+}
+
 doj {
-    color: aqua;
+    margin-left: 1%;
+    color: navy;
+}
+
+doj::after {
+    content: "\a";
+    white-space: pre;
 }
 
 email {
+    margin-left: 1%;
     color: orange;
+}
+
+email::after {
+    content: "\a";
+    white-space: pre;
 }
