@@ -7,13 +7,29 @@
 </head>
 
 <students>
-    <student>
-        <usn>Usn : 1BY21IS026</usn>
-        <name>Name : Ashish Kumar Sahoo</name>
-        <college>College : BMSIT</college>
-        <branch>Programme : ISE</branch>
-        <doj>Date Of Joining : 27/12/2021</doj>
-        <email>Email Id : ashish10112093@gmail.com</email>
-    </student>
+    <student>Student1</student>
+    <usn>Usn : 1BY21IS026</usn>
+    <name>Name : Ashish Kumar Sahoo</name>
+    <college>College : BMSIT</college>
+    <branch>Programme : ISE</branch>
+    <doj>Date Of Joining : 27/12/2021</doj>
+    <email>Email Id : ashish@gmail.com</email>
+
+    <student>Student2</student>
+    <usn>Usn : 1BY21IS016</usn>
+    <name>Name : Aman Singh</name>
+    <college>College : BMSIT</college>
+    <branch>Programme : ISE</branch>
+    <doj>Date Of Joining : 1/1/2022</doj>
+    <email>Email Id : aman@gmail.com</email>
+
+    <student>Student3</student>
+    <usn>Usn : 1BY21IS005</usn>
+    <name>Name : Abhinav</name>
+    <college>College : BMSIT</college>
+    <branch>Programme : ISE</branch>
+    <doj>Date Of Joining : 27/12/2021</doj>
+    <email>Email Id : abhinav@gmail.com</email>
 </students>
+
 </html>
