@@ -7,3 +7,9 @@
 * Thank you!!
 
 ## Exclusive Info on <a href="https://github.com/ashish4kmax/Web_Lab_programs/blob/main/Q9.php" alt="Q9.php">Q9.php</a> for "SORTING TABLE BY GETTING INFO FROM DATABASE" Below is a video explanation to it.
+
+
+
+
+https://user-images.githubusercontent.com/111702590/229914066-2e18aa1d-e1f1-4abc-a71d-1414fbf871d4.mp4
+
