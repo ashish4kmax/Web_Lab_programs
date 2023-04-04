@@ -6,4 +6,4 @@
 * This will take you to the phpMyAdmin there you can create delete do operations on tables and databases.
 * Thank you!!
 
-# Exclusive Info on Q9.php for SORTING TABLE BY GETTING INFO FROM DATABASE Below is a video explanation to it.
+## Exclusive Info on Q9.php for "SORTING TABLE BY GETTING INFO FROM DATABASE" Below is a video explanation to it.
